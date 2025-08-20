@@ -3,8 +3,8 @@ route:
 
 receivers:
   - name: 'slack'
-#       slack_configs:
-#           - send_resolved: true
-#             username: '<username>'
-#             channel: '#<channel-name>'
-#             api_url: '<incomming-webhook-url>'
+      slack_configs:
+          - send_resolved: true
+            username: 'jhakimcs03'
+            channel: '#pe_portfolio_centralized_communication'
+            api_url: 'https://hooks.slack.com/services/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'
